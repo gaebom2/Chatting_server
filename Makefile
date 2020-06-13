@@ -1,5 +1,5 @@
 CC= gcc
-APP=server
+APP=cli
 CFLAGS = -D_REENTRANT 
 LDFLAGS = -lpthread 
 OBJS=server.o
